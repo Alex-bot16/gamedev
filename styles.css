@@ -1,0 +1,61 @@
+.main{
+    border: 1px solid black;
+    background-color:blue;
+    width:60px;
+    height:60px;
+
+    position:absolute;
+    left:10px;
+    bottom:150px;
+}
+
+.ground{
+    width:100vw;
+    height:50px;
+    background:green;
+    position:absolute;
+    left:0;
+    bottom:100px;
+}
+
+.enemy {
+    width: 25px;
+    height: 50px;
+    border-radius: 100px;
+    background: rgb(255, 9, 50);
+    border: solid darkgreen 5px;
+    display: flex;         
+    justify-content: center; 
+    align-items: center;    
+}
+
+.seed {
+    width: 5px;
+    height: 5px;
+    border-radius: 50px;
+    border: solid black 1px;
+    background: black;
+
+}
+/*
+#BLOCK{
+    width:100px;
+    height:50px;
+    background: blue;
+    border: solid black 1px;
+}
+
+.block1{
+    position: absolute;
+    left:100px;
+    bottom: 150px;
+}
+
+.block2{
+    position: absolute;
+    bottom: 150px;
+    left: 500px;
+
+}
+
+*/
